@@ -12,13 +12,20 @@ project files
 background-remover/
 │
 ├── index.html        (the webpage)
+
 ├── styles.css        (the styling)
+
 ├── app.js            (the javascript)
+
 │
+
 └── backend/
+
     ├── requirements.txt    (python libraries)
+    
     └── api/
         └── main.py         (the python server)
+        
 how to run it
 
 step 1 - set up the backend
