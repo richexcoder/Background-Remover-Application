@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Background Remover</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>Background Remover</h1>
+  <p>Upload an image and we will remove the background for you!</p>
+
+  <!-- file input -->
+  <input type="file" id="myFile">
+  <br><br>
+  <button id="myBtn">Remove Background</button>
+
+  <br><br>
+
+  <!-- this will show the result -->
+  <div id="resultDiv">
+    <h3>Result:</h3>
+    <img id="resultImg">
+    <br>
+    <a id="downloadLink" download="result.png">Download Image</a>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
