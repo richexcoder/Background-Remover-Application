@@ -20,23 +20,41 @@ background-remover/
     └── api/
         └── main.py         (the python server)
 how to run it
+
 step 1 - set up the backend
+
 open your terminal and go to the backend folder
+
 cd background-remover/backend
+
 create a virtual environment
+
 python -m venv env
+
 activate it (mac/linux)
+
 source env/bin/activate
+
 activate it (windows)
+
 env\Scripts\activate
+
 install the libraries
+
 pip install -r requirements.txt
+
 start the server
+
 uvicorn api.main:app --reload
+
 you should see something like "Uvicorn running on http://127.0.0.1:8000"
+
 step 2 - open the frontend
+
 open index.html with Live Server in VS Code
+
 (right click index.html and click "Open with Live Server")
+
 step 3 - use the app
 
 pick an image
